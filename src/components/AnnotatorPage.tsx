@@ -20,7 +20,14 @@ const textTypeOptions = [
   { value: 'nominativo', label: 'Nominativo (Nome e cognome)' },
   { value: 'indirizzo', label: 'Indirizzo' },
   { value: 'citta', label: 'Città' },
-  { value: 'data', label: 'Data dd-MM-yyyy' }
+  { value: 'data', label: 'Data dd-MM-yyyy' },
+  { value: 'serie', label: 'Serie'},
+  { value: 'cittadinanza', label: 'Cittadinanza'},
+  { value: 'stato_civile', label: 'Stato Civile'},
+  { value: 'professione', label: 'Professione'},
+  { value: 'capelli', label: 'Capelli'},
+  { value: 'occhi', label: 'Occhi'},
+  { value: 'segni_particolari', label: 'Segni Particolari'}
 ];
 
 const AnnotatorPage: React.FC<Props> = ({ image, imageName, annotations, setAnnotations }) => {

@@ -1,0 +1,224 @@
+template: interno.png
+fields:
+  cognome:
+    x_left: 189
+    y_top: 66
+    width: 297
+    height: 39
+    field_type: testo
+    text_type: cognome
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  nome:
+    x_left: 167
+    y_top: 109
+    width: 322
+    height: 39
+    field_type: testo
+    text_type: nome
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  data_nascita:
+    x_left: 151
+    y_top: 152
+    width: 342
+    height: 37
+    field_type: testo
+    text_type: data
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  numero_atto:
+    x_left: 137
+    y_top: 196
+    width: 97
+    height: 34
+    field_type: testo
+    text_type: numero
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: right
+  parte:
+    x_left: 260
+    y_top: 195
+    width: 85
+    height: 37
+    field_type: testo
+    text_type: numero
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: right
+  serie:
+    x_left: 383
+    y_top: 195
+    width: 132
+    height: 40
+    field_type: testo
+    text_type: serie
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: right
+  citta_nascita:
+    x_left: 105
+    y_top: 238
+    width: 391
+    height: 36
+    field_type: testo
+    text_type: citta
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  cittadinanza:
+    x_left: 212
+    y_top: 281
+    width: 295
+    height: 37
+    field_type: testo
+    text_type: cittadinanza
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  citta_residenza:
+    x_left: 196
+    y_top: 322
+    width: 302
+    height: 40
+    field_type: testo
+    text_type: citta
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  indirizzo_residenza:
+    x_left: 131
+    y_top: 367
+    width: 376
+    height: 37
+    field_type: testo
+    text_type: indirizzo
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: left
+  stato_civile:
+    x_left: 187
+    y_top: 410
+    width: 322
+    height: 36
+    field_type: testo
+    text_type: stato_civile
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  professione:
+    x_left: 190
+    y_top: 448
+    width: 325
+    height: 36
+    field_type: testo
+    text_type: professione
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  statura:
+    x_left: 166
+    y_top: 551
+    width: 276
+    height: 39
+    field_type: testo
+    text_type: numero
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  capelli:
+    x_left: 157
+    y_top: 592
+    width: 297
+    height: 40
+    field_type: testo
+    text_type: capelli
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  occhi:
+    x_left: 152
+    y_top: 634
+    width: 306
+    height: 37
+    field_type: testo
+    text_type: occhi
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: left
+  segni_particolari:
+    x_left: 240
+    y_top: 677
+    width: 283
+    height: 42
+    field_type: testo
+    text_type: segni_particolari
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
+  foto:
+    x_left: 723
+    y_top: 86
+    width: 328
+    height: 363
+    field_type: face
+  firma_titolare:
+    x_left: 843
+    y_top: 466
+    width: 253
+    height: 37
+    field_type: firma
+  '':
+    x_left: 899
+    y_top: 654
+    width: 182
+    height: 152
+    field_type: timbro
+  firma_funzionario:
+    x_left: 853
+    y_top: 593
+    width: 275
+    height: 46
+    field_type: firma
+  comune_emissione:
+    x_left: 651
+    y_top: 510
+    width: 186
+    height: 41
+    field_type: testo
+    text_type: citta
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: left
+  data_emissione:
+    x_left: 864
+    y_top: 510
+    width: 250
+    height: 40
+    field_type: testo
+    text_type: data
+    font: OCR-B
+    font_size: 14
+    font_color: '#000000'
+    text_align: center
